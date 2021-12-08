@@ -1,0 +1,64 @@
+/* Todos los elementos de tipo "p" con atributo class = "aa"  */
+
+
+/*
+p.aa {
+    color: red;
+    font-size: 20px;
+}
+*/
+
+
+/*   Todos los elementos de tipo "p" con atributo id = "aviso"  */
+
+
+/*
+p#aviso {
+    color: blue;
+}
+
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+*/
+
+body {
+    background-color: linen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    letter-spacing: .5em;
+}
+
+#div1 {
+    color: aqua;
+    width: 100%;
+    height: 200px;
+    border: 5px solid;
+    margin: 5px 5px 5px 5px;
+}
+
+#div2 {
+    color: red;
+    width: 100%;
+    height: 200px;
+    border: 5px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 1em;
+}
+
+#div3 {
+    font-size: 24px;
+    color: blue;
+    width: 100%;
+    height: 200px;
+    border: 5px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
