@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button type="button" id="btn">Cambiar fondo</button>
+
+    <button type="button" id="btn-full" onclick="fullscreen()">Fullscreen</button>
+
+    <button type="button" id="btn-full-exit" onclick="exitFullscreen()">Salir fullscreen</button>
+
+    <br>
+    <br>
+    <br>
+    <form id="formulario">
+        <div> Nombre
+            <input type="text" id="nombre">
+            <labe id="rnombre"> </labe>
+        </div>
+        <div> Mail
+            <input type="email" id="email">
+            <labe id="remail"> </labe>
+        </div>
+
+        <div> Es estudiante
+            <input type="checkbox" id="estudiante">
+        </div>
+        <div style="display: none;" id="div_nivel">Nivel:
+            <select id="nivel">
+                <option value="">Seleccionar nivel</option>
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="preparatoria">Preparatoria</option>
+                <option value="universidad">Universidad</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" id="enviar">Enviar</button>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>

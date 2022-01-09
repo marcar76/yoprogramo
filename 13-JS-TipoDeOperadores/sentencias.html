@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sentencias.js"></script>
+</head>
+
+<body>
+
+
+    <h1> Sentencias de control</h1>
+
+    <form>
+        <p> Edad: <input type="text" id="edad"></p>
+        <p> <button type="button" id="validar" onclick="validarEdad(edad.value)">Validar</button></p>
+        <p> <label id="respuesta"></label></p>
+    </form>
+
+    <br>
+
+    <h1> Compara Mayor</h1>
+    <p> Numero 1: <input type="text" id="numero1"></p>
+    <p> Numero 2: <input type="text" id="numero2"></p>
+    <p> Numero 3: <input type="text" id="numero3"></p>
+    <p> <button type="button" id="comparar" onclick="comparar()">Comparar</button></p>
+    <p> <label id="comparacion"></label></p>
+
+    <br>
+
+    <h1> Dia de la semana: de Numero a Texto</h1>
+    <p> Dia en Numero: <input type="text" id="dianumero"></p>
+    <p> <button type="button" id="diaresultado" onclick="dia_texto()">Buscar Dia</button></p>
+    <p> <label id="diaentexto">Respuesta: </label></p>
+
+</body>
+
+</html>
