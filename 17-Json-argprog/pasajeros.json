@@ -1,0 +1,47 @@
+[{
+        "nombre": "Laura",
+        "apellido": "Lopez",
+        "edad": 30,
+        "precio": 200.24,
+        "pagado": true,
+        "asiento": {
+            "numero": 12,
+            "letra": "f",
+            "cargador": true
+        },
+        "historial": [{
+                "salida": "New york",
+                "destino": "chicago",
+                "fecha": "10/10/2017"
+            },
+            {
+                "salida": "Madrid",
+                "destino": "BArcelona",
+                "fecha": "11/11/2018"
+            }
+        ]
+    },
+    {
+        "nombre": "Jose",
+        "apellido": "Rodriguez",
+        "edad": 35,
+        "precio": 500.44,
+        "pagado": false,
+        "asiento": {
+            "numero": 15,
+            "letra": "h",
+            "cargador": false
+        },
+        "historial": [{
+                "salida": "Seattle",
+                "destino": "dallas",
+                "fecha": "14/4/2014"
+            },
+            {
+                "salida": "ROma",
+                "destino": "Milan",
+                "fecha": "1/1/2015"
+            }
+        ]
+    }
+]
