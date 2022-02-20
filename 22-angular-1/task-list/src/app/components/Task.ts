@@ -1,5 +1,5 @@
 export interface Task {
-id?: number; //es opcional;
+id?: number; //  "?" significa que es opcional;
 text: string;
 day: string;
 remainder: boolean;
